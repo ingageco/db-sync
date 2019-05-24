@@ -1,5 +1,5 @@
 {
-	"name": "scottjs/db-sync",
+	"name": "ingageco/db-sync",
 	"description": "Helper scripts to quickly synchronise a local MySQL database with a remote database, as well as prepare a local database for deployment to a remote server.",
 	"license": "MIT",
 	"authors": [
@@ -9,21 +9,27 @@
 		}
 	],
 	"require": {
-		"interconnectit/search-replace-db": "^3.1"
+		"ingageco/search-replace-db": "^3.1"
 	},
 	"scripts": {
 		"database-update" : [
-			"vendor/scottjs/db-sync/database-update.sh"
+			"vendor/ingageco/db-sync/database-update.sh"
 		],
 		"database-prepare" : [
-			"vendor/scottjs/db-sync/database-prepare.sh"
+			"vendor/ingageco/db-sync/database-prepare.sh"
 		],
 		"database-import" : [
-			"vendor/scottjs/db-sync/database-import.sh"
+			"vendor/ingageco/db-sync/database-import.sh"
 		],
 		"database-export" : [
-			"vendor/scottjs/db-sync/database-export.sh"
+			"vendor/ingageco/db-sync/database-export.sh"
 		]
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"repositories": {
+		"ingage": {
+			"type": "vcs",
+			"url": "https://github.com/ingageco/Search-Replace-DB.git"
+		}
+	}
 }
