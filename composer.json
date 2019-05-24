@@ -9,7 +9,7 @@
 		}
 	],
 	"require": {
-		"ingageco/search-replace-db": "^3.1"
+		"ingageco/search-replace-db": "3.1-fix"
 	},
 	"scripts": {
 		"database-update" : [
