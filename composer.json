@@ -9,7 +9,7 @@
 		}
 	],
 	"require": {
-		"ingageco/search-replace-db": "4.1.3"
+		"interconnectit/search-replace-db":"4.1.3"
 	},
 	"scripts": {
 		"database-update" : [
